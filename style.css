@@ -1,3 +1,120 @@
-body {
-    background:whitesmoke
+html, body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(235, 211, 177);
+    border: 15px;
+    padding: 50px;
 }
+
+h1 {
+    text-align: center;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 5em;
+    letter-spacing: 1px;
+    border-bottom: 2px solid black
+}
+
+#photo {
+    display:inline-block;
+    position: relative;
+    top: 20px;
+    left: 240px;
+}
+    
+img {
+    border-radius: 50%;
+    max-width: 250px;
+    height: auto;
+    margin: auto;
+}
+
+
+#hello {
+    margin: auto;
+    font-size: 2em;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bolder;
+    color: rgb(235, 195, 137);
+    text-align: right;
+    
+}
+
+#quote {
+    font-style: italic;
+    font-size: medium;
+}
+#intro {
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    left: 200px;
+
+}
+
+#introduction {
+    max-width: 700px;
+    text-align: right;
+    background-color:rgb(235, 195, 137);  
+    border-radius: 10px; 
+    padding: 10px;
+    margin: auto;
+}
+
+#input-form {
+    display: block;
+    position: relative;
+    top: 40px;
+    left: 770px;
+}
+input {
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;  
+    color: gray; 
+    opacity: 0.5; 
+}
+
+#mail-to {
+    padding: 5px;
+    cursor: pointer;
+    border: 2px solid whitesmoke;
+    background-color:rgb(235, 195, 137);
+    border-radius: 10px;
+}
+
+#mail-to > a {
+    padding: 20px;
+    text-decoration: none;
+    color:rgb(133, 84, 11);
+    font-weight: 600;
+}
+
+.display-6 {
+    padding: 5px;
+    border: 2px solid whitesmoke;
+    background-color:rgb(235, 195, 137);
+    border-radius: 10px;
+    max-width: 250px;
+    text-align: center;
+}
+
+.role {
+    font-weight: 500;
+    color: rgb(133, 84, 11);
+}
+
+
+#skills > ul:last-child {
+    list-style-position: inside;
+    font-size: large;
+    font-weight: 600;
+    
+}
+
+#experience > ul:last-child {
+    list-style-position: inside;
+}
+
+#contact > ul:last-child {
+    list-style-position: inside;
+}
+
