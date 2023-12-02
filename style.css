@@ -1,5 +1,5 @@
 html, body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     background-color:rgb(235, 211, 177);
     border: 15px;
     padding: 50px;
@@ -13,14 +13,14 @@ h1 {
     border-bottom: 2px solid black
 }
 
-#photo {
+#portrait {
     display:inline-block;
     position: relative;
     top: 20px;
     left: 240px;
 }
     
-img {
+#portrait > img {
     border-radius: 50%;
     max-width: 250px;
     height: auto;
@@ -93,7 +93,7 @@ input {
     border: 2px solid whitesmoke;
     background-color:rgb(235, 195, 137);
     border-radius: 10px;
-    max-width: 250px;
+    width: 250px;
     text-align: center;
 }
 
@@ -105,16 +105,61 @@ input {
 
 #skills > ul:last-child {
     list-style-position: inside;
-    font-size: large;
+    font-size: larger;
     font-weight: 600;
     
 }
 
 #experience > ul:last-child {
-    list-style-position: inside;
+    list-style-position:outside;
 }
 
 #contact > ul:last-child {
     list-style-position: inside;
+}
+
+#personal-content {
+    display: inline-block;
+    
+}
+
+.snow {
+    display: inline-block;
+    max-width: 230px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.hiking {
+    display: inline-block;
+    max-width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+#outdoor {
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: large;
+    text-align: center;
+    font-weight: 700;
+}
+
+.hobbies{
+    display: inline-block;
+    position: relative;
+    padding-left: 90px;
+    top: -220px;   
+}
+
+#social-links {
+    border-top: 2px solid black;
+    padding: 10px;;
+    display: flex;
+    align-items: right;
+    justify-content: right
+}
+
+#social {
+    font-size: 2em;
 }
 

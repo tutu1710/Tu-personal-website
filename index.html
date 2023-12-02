@@ -1,83 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>Tu Personal Website</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        
-        <body>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <body>
         <h1 class="display-1">Tu Nguyen</h1>
         
         <div id="intro">
             <div id="hello">
-            Hi! I am Tu <i class="far fa-smile-wink"></i>
+            Hi! I am Tu <i id="smiley-face" class="far fa-smile-wink"></i>
             </div>
             <div id="introduction">
                 <div id="bio" class="lead">An enthusiastic front-end developer based in Melbourne, Australia</div>
                 <div id="quote" class="blockquote">—"Never stop learning, because life never stops teaching"</div>
             </div>
         </div>
-        <div id="photo">
-            <img src="profile photo 1.JPG" alt="profile-photo">
+        <div id="portrait">
+            <img class="profile" src="profile photo 1.JPG" alt="photo-taken-in-bali">
         </div>
         <div id="input-form">
-            <input type="text" name="email" id="html" value="Your Email Address">
+            <input type="text" name="email" id="html" placeholder="Your Email Address">
             <span id="mail-to">
                 <a href="mailto:tunguyen1094@gmail.com">Hire Me</a>
             </span>
         </div>
         
-        <div id="skills">
-            <p class="display-6">SKILLS</p>
-            <ul>
-                <li>HTML5</li>
-                <li>Node.js</li>
-                <li>CSS</li>
-                <li>Bootstrap</li>
-            </ul>
-        </div>
+        <div id="personal-content">
+            <div id="skills">
+                <p class="display-6">SKILLS</p>
+                <ul>
+                    <li>HTML5
+                        <i id="programming-icon" class="devicon-html5-plain colored"></i>
+                    </li>
+                    
+                    <li>Node.js
+                        <i id="programming-icon" class="devicon-nodejs-plain colored"></i>
+                    </li>
+
+                    <li>CSS
+                        <i id="programming-icon" class="devicon-css3-plain colored"></i>
+                    </li>
+
+                    <li>Bootstrap
+                        <i id="programming-icon" class="devicon-bootstrap-plain colored"></i>
+                    </li>
+                </ul>
+            </div>
             
-        <div id="experience">
-            <p class="display-6">EXPERIENCE</p>
-            <ul>
-                <li><div class="role">Logistic Coordinator</div></li>
-                    <ul id="job-content">
-                        <li>2022 - Present</li>
-                        <li>The Just Group</li>
-                    </ul>
-                <li><div class="role">Construction Estimator</div></li>
-                    <ul id="job-content">
-                        <li>2018 - 2022</li>
-                        <li>CTA Group</li>
-                    </ul>
-                <li><div class="role">Asset Management Officer</div></li>
-                    <ul id="job-content">
-                        <li>2015 - 2018</li>
-                        <li>Brimbank City Council</li>
-                    </ul>
-            </ul>
+            <div id="experience">
+                <p class="display-6">EXPERIENCE</p>
+                <ul>
+                    <li><div class="role">Logistic Coordinator</div></li>
+                        <ul id="job-content">
+                            <li>2022 - Present</li>
+                            <li>The Just Group</li>
+                        </ul>
+                    <li><div class="role">Construction Estimator</div></li>
+                        <ul id="job-content">
+                            <li>2018 - 2022</li>
+                            <li>CTA Group</li>
+                        </ul>
+                    <li><div class="role">Asset Management Officer</div></li>
+                        <ul id="job-content">
+                            <li>2015 - 2018</li>
+                            <li>Brimbank City Council</li>
+                        </ul>
+                </ul>
+            </div>
 
-
-        <div id="contact">
-            <p class="display-6">CONTACTS</p>
-            <ul>
-                <li>tunguyen1094@gmail.com</li>
-                <li>+61 410 121 994</li>
-            </ul>
+            <div id="contact">
+                <p class="display-6">CONTACT</p>
+                <ul>
+                    <li>tunguyen1094@gmail.com</li>
+                    <li>+61 410 121 994</li>
+                </ul>
+            </div>
         </div>
 
-
+        <div class="hobbies">
+            <p id="outdoor">Outside of work and study you can find me engaging in outdoor activities</p>
+            <img class="snow" src="snowboarding.JPG" alt="falls-creek-snow-trip"> 
+            <img class="hiking" src="hiking.JPG" alt="mt-beauty">
+        </div>
         <div id="social-links">                
                 <a href="https://www.facebook.com/Tu.m.Ng/" target="_blank">    
-                    <i class="fab fa-facebook fa-lg"></i>
+                    <i id="social" class="fab fa-facebook fa-lg"></i>
                 </a>
 
                 <a href="https://www.instagram.com/txngxxxn/" target="_blank">
-                    <i class="fab fa-instagram fa-lg"></i>
+                    <i id="social" class="fab fa-instagram fa-lg"></i>
                 </a>
 
                 <a href="https://github.com/tutu1710" target="_blank">
-                    <i class="fab fa-github fa-lg"></i>
+                    <i id="social" class="fab fa-github fa-lg"></i>
                 </a>
+        </div>
     </body>
 </html>
